@@ -1,0 +1,81 @@
+# Taps
+tap "kyoh86/tap"
+# Taps
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
+tap "homebrew/command-not-found"
+tap "homebrew/core"
+
+# Development Tools
+cask "iterm2"
+
+# JSON & YAML
+brew "jq"
+brew "yq"
+
+# Groovy/Jenkins Development
+brew "groovy"
+
+# Editor and IDE Visual Studio Code instead of Atom (cask "atom")
+cask "visual-studio-code"
+
+
+# Go Development
+brew "go"
+
+# Python Development
+brew "python3"
+
+# Docker
+cask "docker"
+
+# Docker Compose
+brew "docker-compose"
+
+# Infrastructure
+
+# Terraform
+brew "terraform"
+
+# Machine Image Provisioner
+brew "packer"
+
+# Other Hashicorp tools
+brew "vault"
+brew "serf"
+
+# Cloud Platforms
+
+# AWS
+brew "awscli"
+brew "aws-iam-authenticator"
+brew "s3cmd"
+
+# KubeCTL and Helm
+brew "kubernetes-cli"
+brew "helm"
+
+# Shell
+brew "bash-completion@2"
+brew "zsh-completions"
+brew "zsh-syntax-highlighting"
+brew "romkatv/powerlevel10k/powerlevel10k"
+
+# Utils
+brew "tree"
+
+
+
+# Fun
+brew "fortune"
+brew "cowsay"
+
+# GNU Utilities
+brew "findutils"
+brew "gettext"
+brew "gnu-getopt"
+brew "gnu-sed"
+
+# Networking / Internet Utilities
+brew "wget"
